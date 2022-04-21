@@ -61,7 +61,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy is exceptionally kind. he has a special way of using kind words to brighten someone's day. he never insults others, and never judges people by their appearance.",
+      "description": "Timmy is an exceptionally agreeable and giving person. he never insults others and will sometimes offer kind words to brighten the moods of those around him. he also never judges people by their appearance.",
       "stats": [
 
       ],
@@ -155,7 +155,7 @@
     {
       "description": "Timmy always says exactly what's on his mind, especially if it's bugging him. That tends to rub people the wrong way.",
       "stats": [
-
+        "+3 melee"
       ],
       "conflicts": [
 
@@ -171,7 +171,7 @@
 
         ],
         "stats": [
-
+          "+3 melee"
         ]
       },
       "defName": "Abrasive",
@@ -268,7 +268,7 @@
 
       ],
       "conflicts": [
-
+        "wimp"
       ],
       "bypassLimit": false,
       "data": {
@@ -278,7 +278,7 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-
+          "wimp"
         ],
         "stats": [
 
@@ -325,7 +325,8 @@
     {
       "description": "Timmy needs a really impressive bedroom. he gets a mood loss if he doesn't get what he wants.",
       "stats": [
-
+        "x133% eating speed",
+        "x150% carrying capacity"
       ],
       "conflicts": [
         "ascetic",
@@ -343,7 +344,8 @@
           "jealous"
         ],
         "stats": [
-
+          "x133% eating speed",
+          "x150% carrying capacity"
         ]
       },
       "defName": "Greedy",
@@ -357,7 +359,9 @@
     {
       "description": "For Timmy, it's degrading to have a less impressive bedroom than someone else. he gets a mood loss if any colonist has a more impressive bedroom.",
       "stats": [
-
+        "+3 social",
+        "x115% negotiation ability",
+        "x115% trade price improvement"
       ],
       "conflicts": [
         "ascetic",
@@ -375,7 +379,9 @@
           "greedy"
         ],
         "stats": [
-
+          "+3 social",
+          "x115% negotiation ability",
+          "x115% trade price improvement"
         ]
       },
       "defName": "Jealous",
@@ -387,7 +393,7 @@
       "degree": 0
     },
     {
-      "description": "Timmy has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. he will become unhappy if if he has a bedroom that's too impressive. he also dislikes fancy food and prefers to eat raw. he never judges others by their appearance.",
+      "description": "Timmy has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. he will become unhappy if he has a bedroom that's too impressive. he also dislikes fancy food and prefers to eat raw. he never judges others by their appearance.",
       "stats": [
 
       ],
@@ -513,7 +519,8 @@
     {
       "description": "Timmy's voice has a particularly grating, nasal quality to it, and he tends to talk in barked, garbled phrases. This predisposes others to dislike him.",
       "stats": [
-
+        "x110% move speed",
+        "x150% recreation power"
       ],
       "conflicts": [
 
@@ -529,7 +536,8 @@
 
         ],
         "stats": [
-
+          "x110% move speed",
+          "x150% recreation power"
         ]
       },
       "defName": "AnnoyingVoice",
@@ -606,7 +614,8 @@
         "-60% pain shock threshold"
       ],
       "conflicts": [
-        "brawler"
+        "brawler",
+        "masochist"
       ],
       "bypassLimit": false,
       "data": {
@@ -616,7 +625,8 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "brawler"
+          "brawler",
+          "masochist"
         ],
         "stats": [
           "-60% pain shock threshold"
@@ -775,7 +785,7 @@
         ]
       },
       "defName": "Transhumanist",
-      "name": "transhumanist",
+      "name": "bodymodder",
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
@@ -788,7 +798,7 @@
 
       ],
       "conflicts": [
-        "transhumanist"
+        "bodymodder"
       ],
       "bypassLimit": false,
       "data": {
@@ -798,7 +808,7 @@
         "mod": "RimWorld",
         "karmaTypeForAdding": null,
         "conflicts": [
-          "transhumanist"
+          "bodymodder"
         ],
         "stats": [
 
@@ -935,7 +945,13 @@
     {
       "description": "Timmy feels alienated and misunderstood by other human beings. he will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break.",
       "stats": [
-
+        "Go frenzy inspiration disabled.",
+        "Shoot frenzy inspiration disabled.",
+        "Inspired trade inspiration disabled.",
+        "Inspired recruitment inspiration disabled.",
+        "Inspired surgery inspiration disabled.",
+        "Inspired taming inspiration disabled.",
+        "+2 artistic"
       ],
       "conflicts": [
 
@@ -951,7 +967,13 @@
 
         ],
         "stats": [
-
+          "Go frenzy inspiration disabled.",
+          "Shoot frenzy inspiration disabled.",
+          "Inspired trade inspiration disabled.",
+          "Inspired recruitment inspiration disabled.",
+          "Inspired surgery inspiration disabled.",
+          "Inspired taming inspiration disabled.",
+          "+2 artistic"
         ]
       },
       "defName": "TorturedArtist",
@@ -1119,7 +1141,8 @@
     {
       "description": "Timmy is utterly fascinated with chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possibly drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
       "stats": [
-
+        "+3 medical",
+        "+3 plants"
       ],
       "conflicts": [
 
@@ -1135,7 +1158,8 @@
 
         ],
         "stats": [
-
+          "+3 medical",
+          "+3 plants"
         ]
       },
       "defName": "DrugDesire",
@@ -1149,7 +1173,8 @@
     {
       "description": "Timmy has an unusual interest in chemical sources of enjoyment. Consuming recreational drugs will create a good mood, while abstaining will lead to increasing frustration over time and possible drug binges. he will ignore directives to not use recreational drugs, and will consume more than a normal person.",
       "stats": [
-
+        "+1 medical",
+        "+1 plants"
       ],
       "conflicts": [
 
@@ -1165,7 +1190,8 @@
 
         ],
         "stats": [
-
+          "+1 medical",
+          "+1 plants"
         ]
       },
       "defName": "DrugDesire",
@@ -1271,7 +1297,9 @@
     {
       "description": "Timmy tends to look on the bad side of life.",
       "stats": [
-
+        "+2 animals",
+        "x105% tame animal chance",
+        "x110% train animal chance"
       ],
       "conflicts": [
 
@@ -1287,7 +1315,9 @@
 
         ],
         "stats": [
-
+          "+2 animals",
+          "x105% tame animal chance",
+          "x110% train animal chance"
         ]
       },
       "defName": "NaturalMood",
@@ -1301,7 +1331,9 @@
     {
       "description": "Timmy is perenially unhappy. he has trouble sustaining a good mood even when everything is fine.",
       "stats": [
-
+        "+3 animals",
+        "x110% tame animal chance",
+        "x115% train animal chance"
       ],
       "conflicts": [
 
@@ -1317,7 +1349,9 @@
 
         ],
         "stats": [
-
+          "+3 animals",
+          "x110% tame animal chance",
+          "x115% train animal chance"
         ]
       },
       "defName": "NaturalMood",
@@ -1995,6 +2029,2064 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": -1
+    },
+    {
+      "description": "Timmy is obsessed with germs and will wash much more frequently than normal.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Dubs Bad Hygiene",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "Hygienic",
+      "name": "germaphobe",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 2
+    },
+    {
+      "description": "Timmy is very hygienic and will wash more frequently.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Dubs Bad Hygiene",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "Hygienic",
+      "name": "hygienic",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 1
+    },
+    {
+      "description": "Timmy is very unhygienic and will wash less frequently.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Dubs Bad Hygiene",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "Hygienic",
+      "name": "unhygienic",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": -1
+    },
+    {
+      "description": "Timmy has very low standards of cleanliness and will only wash when they absolutely have to.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Dubs Bad Hygiene",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "Hygienic",
+      "name": "slob",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": -2
+    },
+    {
+      "description": "Timmy enjoys the solitude and tranquility inherent to long fishing sessions. he will prefer fishing above other activities.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Fishing Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VCEF_Fisherman",
+      "name": "fisherman",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy tends to occasionally allow their mind to drift, even in the middle of working.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "workaholic",
+        "industrious",
+        "hardworker",
+        "lazy",
+        "slothful"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "workaholic",
+          "industrious",
+          "hardworker",
+          "lazy",
+          "slothful"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_AbsentMinded",
+      "name": "absent-minded",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has a loose screw or two, a small trade off for being naturally scientifically inclined.",
+      "stats": [
+        "x115% research speed"
+      ],
+      "conflicts": [
+        "dunce"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "dunce"
+        ],
+        "stats": [
+          "x115% research speed"
+        ]
+      },
+      "defName": "VTE_Eccentric",
+      "name": "eccentric",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy strives for perfection in his work. They will naturally produce better quality products at the expense of time. However, making a low quality product will upset them. Additionally, they may very rarely quit a project mid attempt if they don't like the direction its going in.",
+      "stats": [
+        "x65% global work speed"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "x65% global work speed"
+        ]
+      },
+      "defName": "VTE_Perfectionist",
+      "name": "perfectionist",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "While fully capable of warfare in theory, Timmy's fight or flight instincts heavily lean towards flight, and he will try to hide or run as a first priority.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "brawler",
+        "brave",
+        "bloodlust"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "brawler",
+          "brave",
+          "bloodlust"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Coward",
+      "name": "coward",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has a higher mental and physical fortitude compared to most and can more readily adapt to harsh environments in the rimworlds.",
+      "stats": [
+        "-20% mental break threshold",
+        "+20% pain shock threshold"
+      ],
+      "conflicts": [
+        "wimp",
+        "coward"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "wimp",
+          "coward"
+        ],
+        "stats": [
+          "-20% mental break threshold",
+          "+20% pain shock threshold"
+        ]
+      },
+      "defName": "VTE_Brave",
+      "name": "brave",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Minor bruises and scrapes plague Timmy all too often, mostly due to uncoordinated tripping or falling.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "nimble"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "nimble"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Clumsy",
+      "name": "clumsy",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy loves the brightness and heat of a dry summer day. They don't mind working up a sweat or sleeping in the warmth either.",
+      "stats": [
+        "+10.0C Maximum comfortable temperature"
+      ],
+      "conflicts": [
+        "coldinclined"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "coldinclined"
+        ],
+        "stats": [
+          "+10.0C Maximum comfortable temperature"
+        ]
+      },
+      "defName": "VTE_HeatInclined",
+      "name": "heatinclined",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy loves the overcast and cold of a brisk winter night. They don't mind getting chilly or sleeping in the cold either.",
+      "stats": [
+        "-10.0C Minimum comfortable temperature"
+      ],
+      "conflicts": [
+        "heatinclined"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "heatinclined"
+        ],
+        "stats": [
+          "-10.0C Minimum comfortable temperature"
+        ]
+      },
+      "defName": "VTE_ColdInclined",
+      "name": "coldinclined",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "A bomb could go off next to Timmy while they sleep and they'd continue to do so. They can't be bothered to defend the colony mid catnap, either.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_HeavySleeper",
+      "name": "heavysleeper",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is naturally hygenic and organized. They will not track in dirt or throw trash anywhere, and feel happy while cleaning.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "slob"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "slob"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Neat",
+      "name": "neat",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is sloppy naturally and leaves trash and dirt everywhere it seems. At least they're not much bothered by messes.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "neat"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "neat"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Slob",
+      "name": "slob",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has problems taking breaks or resting mid job. he will continue to work even sacrificing their health or sleep.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "absent-minded",
+        "industrious",
+        "hardworker",
+        "lazy",
+        "slothful"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "absent-minded",
+          "industrious",
+          "hardworker",
+          "lazy",
+          "slothful"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Workaholic",
+      "name": "workaholic",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has never felt nausea in his life. Throwing up or food poisoning is foreign to him.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "squeamish"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "squeamish"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_IronStomach",
+      "name": "ironstomach",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy can't stand mistreatment of animals. he will feel happier being nuzzled or being a master to a bonded animal, but will be more deeply crushed when not master of a bonded animal or seeing one die. They also refuse to butcher.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "animalhater"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "animalhater"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_AnimalLover",
+      "name": "animallover",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy believes deeply in human superiority. Killing animals will please them and the colony losing an animal is a cherry on top according to them.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "animallover",
+        "menagerist"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "animallover",
+          "menagerist"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_AnimalHater",
+      "name": "animalhater",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Whether because they're a bit chunky or because they shift their weight oddly, Timmy has broken a few chairs in their time and is likely to break more.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_BigBoned",
+      "name": "big-boned",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy only plays by their own rules, and will roll their eyes and take it easy while doing any task they've been forced to do.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "submissive"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "submissive"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Rebel",
+      "name": "rebel",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy needs clear instructions on how, and when to do certain things and will only work at a normal speed when being forced to do something.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "rebel"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "rebel"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Submissive",
+      "name": "submissive",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is fueled by spite. They can't stand walking on the same soil as their rivals and will be elated by news of their life ending.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "kind"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "kind"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Vengeful",
+      "name": "vengeful",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Whether by past trauma or fear of change, Timmy rejects modernity. They may randomly punch or attack mechanical devices and refuse to learn or research anything about them. They also love killing mechanoids.",
+      "stats": [
+        "Only mental break \"VTE_TechnophobeTantrum\" allowed."
+      ],
+      "conflicts": [
+        "bodymodder"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "bodymodder"
+        ],
+        "stats": [
+          "Only mental break \"VTE_TechnophobeTantrum\" allowed."
+        ]
+      },
+      "defName": "VTE_Technophobe",
+      "name": "technophobe",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy always recalls the good times and lives to party, any party attended will be remembered for many times longer than most.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "anxious"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "anxious"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_FunLoving",
+      "name": "fun-loving",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has hindered mental capacities. While slow to learn and hard to speak with, they tend to be much happier naturally.",
+      "stats": [
+        "-50% global learning factor",
+        "-50.00% social impact"
+      ],
+      "conflicts": [
+        "fastlearner",
+        "toosmart",
+        "eccentric",
+        "prodigy"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "fastlearner",
+          "toosmart",
+          "eccentric",
+          "prodigy"
+        ],
+        "stats": [
+          "-50% global learning factor",
+          "-50.00% social impact"
+        ]
+      },
+      "defName": "VTE_Dunce",
+      "name": "dunce",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy learned a specific move in melee combat which allows them to disarm opponents and will use it frequently.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_MartialArtist",
+      "name": "martialartist",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy believes they belong in high society, and loves nothing more than critiquing art and brushing elbows with royalty.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "ascetic"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "ascetic"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Snob",
+      "name": "snob",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Sour stomach plagues Timmy any time they're around too much blood or rotting corpses. Vomiting is just part of life for him.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "ironstomach",
+        "desensitized"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "ironstomach",
+          "desensitized"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Squeamish",
+      "name": "squeamish",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy feels naturally anxious, but especially from social situations. They will not attend any gatherings and may occasionally need alone time in their room to breathe.",
+      "stats": [
+        "Only mental break \"VTE_PanicFreezing\" allowed."
+      ],
+      "conflicts": [
+        "fun-loving"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "fun-loving"
+        ],
+        "stats": [
+          "Only mental break \"VTE_PanicFreezing\" allowed."
+        ]
+      },
+      "defName": "VTE_Anxious",
+      "name": "anxious",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "No amount of lovin' is enough lovin' for Timmy. he will tend to jump from partner to partner and tumble between the sheets with them frequently.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "prude",
+        "asexual",
+        "nudist"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "prude",
+          "asexual",
+          "nudist"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Insatiable",
+      "name": "insatiable",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy refuses to give their body to anybody but their spouse and would never fathom initiating a divorce. They also hate being nude much more than other pawns.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "insatiable",
+        "nudist"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "insatiable",
+          "nudist"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Prude",
+      "name": "prude",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "An armchair and flatscreen is all Timmy needs to be happy. Even reruns or ancient commercials are entertaining to them, they will never grow bored of television and tend to watch it more, as well as feel pleased after doing so.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_CouchPotato",
+      "name": "couchpotato",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is mad for all things feline. They will naturally gravitate towards bonding with cats, however they're not a fan of dogs.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "dogperson"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "dogperson"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_CatPerson",
+      "name": "catperson",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is mad for all things canine. They will naturally gravitate towards bonding with dogs, however they're not a fan of cats.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "catperson"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "catperson"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_DogPerson",
+      "name": "dogperson",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is a natural scientist. They research much faster and recall things better. However, they'll be upset without a laboratory dedicated to their work and tend to stress out more frequently.",
+      "stats": [
+        "+20% mental break threshold",
+        "x130% research speed"
+      ],
+      "conflicts": [
+        "dunce"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "dunce"
+        ],
+        "stats": [
+          "+20% mental break threshold",
+          "x130% research speed"
+        ]
+      },
+      "defName": "VTE_Prodigy",
+      "name": "prodigy",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy believes animals are integral to the way society and life functions from furry friends to sources of food. They love having as many as possible and are particularly good at taming and training them.",
+      "stats": [
+        "x120% tame animal chance",
+        "x120% train animal chance"
+      ],
+      "conflicts": [
+        "animalhater"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "animalhater"
+        ],
+        "stats": [
+          "x120% tame animal chance",
+          "x120% train animal chance"
+        ]
+      },
+      "defName": "VTE_Menagerist",
+      "name": "menagerist",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "The sea calls to Timmy. he feels happier just being near the ocean or a deep river.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_ChildOfSea",
+      "name": "oceanlover",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "The mountains call to Timmy. he feels happier just being near a large mountain.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_ChildOfMountain",
+      "name": "mountainlover",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has a twisted secret. he treats organ harvesting like a sick experiment, and does not even blink at the idea. While harvesting one will make them happy, going too long without giving in to their compulsion will upset them.",
+      "stats": [
+        "+20% surgery success chance factor"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+20% surgery success chance factor"
+        ]
+      },
+      "defName": "VTE_MadSurgeon",
+      "name": "madsurgeon",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is supposedly a hand-to-hand combat specialist, but only when inebriated. They claim to become more talented the more drunk they are.",
+      "stats": [
+        "+4 melee"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+4 melee"
+        ]
+      },
+      "defName": "VTE_DrunkenMaster",
+      "name": "drunkenmaster",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is compulsed to steal and take things that don't belong to them, even if it means angering the other party.",
+      "stats": [
+        "Only mental break \"VTE_Kleptomaniac\" allowed."
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "Only mental break \"VTE_Kleptomaniac\" allowed."
+        ]
+      },
+      "defName": "VTE_Kleptomaniac",
+      "name": "kleptomaniac",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Smokeleaf culture is just part of life for Timmy. he absolutely adores smokeleaf and would rather die before giving it up.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "chemicalfascination",
+        "chemicalinterest",
+        "teetotaler",
+        "lush"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "chemicalfascination",
+          "chemicalinterest",
+          "teetotaler",
+          "lush"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Stoner",
+      "name": "stoner",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Alcohol culture is just part of life for Timmy. he absolutely adores booze and would rather die before giving it up.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "chemicalfascination",
+        "chemicalinterest",
+        "teetotaler",
+        "lush"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "chemicalfascination",
+          "chemicalinterest",
+          "teetotaler",
+          "lush"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Lush",
+      "name": "lush",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy loves to travel and does so swiftly, but can grow upset if they haven't done so in a while. They are also quite adept at foraging while traveling.",
+      "stats": [
+        "+0.2 foraged food amount"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+0.2 foraged food amount"
+        ]
+      },
+      "defName": "VTE_Wanderlust",
+      "name": "wanderlust",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is never really asleep or awake. he is almost zombie like, lurching along and working very slowly, and will only sleep once every three days or so.",
+      "stats": [
+        "x50% global work speed",
+        "x70% move speed"
+      ],
+      "conflicts": [
+        "heavysleeper"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "heavysleeper"
+        ],
+        "stats": [
+          "x50% global work speed",
+          "x70% move speed"
+        ]
+      },
+      "defName": "VTE_Insomniac",
+      "name": "insomniac",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has grown tired of the world and needs to be constantly distracted to stop dark thoughts. his bleak personality is a big downer and therefore it is very hard to become friends with them.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_WorldWeary",
+      "name": "worldweary",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is hardened through what can only be presumed as old emotional trauma. They feel absolutely nothing from lost animals, colonists, family, prisoners or dead bodies.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "squeamish"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "squeamish"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Desensitized",
+      "name": "desensitized",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Only the finest of culinary creations may grace the lips of Timmy. They feel neutral towards mundane meals, but will laud and savour lavish meals down to the last bite.",
+      "stats": [
+        "x70% eating speed"
+      ],
+      "conflicts": [
+        "ascetic"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "ascetic"
+        ],
+        "stats": [
+          "x70% eating speed"
+        ]
+      },
+      "defName": "VTE_RefinedPalate",
+      "name": "refinedpalate",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Whether through studying ancient manuscripts or years of scholastic pursuit Timmy is surprisingly well read on a variety of topics, particularly science and medical practice.",
+      "stats": [
+        "+4 intellectual",
+        "+4 medical",
+        "+20% medical tend quality"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+4 intellectual",
+          "+4 medical",
+          "+20% medical tend quality"
+        ]
+      },
+      "defName": "VTE_Academian",
+      "name": "academian",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy strongly believes infrastucture rules all and is a natural born stoneworker.",
+      "stats": [
+        "+4 mining",
+        "+4 construction",
+        "+20% mining yield",
+        "+20% construction speed"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+4 mining",
+          "+4 construction",
+          "+20% mining yield",
+          "+20% construction speed"
+        ]
+      },
+      "defName": "VTE_Groundbreaker",
+      "name": "groundbreaker",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "In the eyes of Timmy food is art, their culinary creations are incredibly beautiful, amazing to taste, and almost always safe to eat.",
+      "stats": [
+        "+4 cooking",
+        "+4 artistic",
+        "-25.00% food poison chance"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+4 cooking",
+          "+4 artistic",
+          "-25.00% food poison chance"
+        ]
+      },
+      "defName": "VTE_Gastronomist",
+      "name": "gastronomist",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Flora and fauna are both vital to Timmy. They use all parts of plants and animals and strongly appreciate mother Gaia's blessings.",
+      "stats": [
+        "+4 animals",
+        "+4 plants",
+        "+20% plant harvest yield",
+        "+20% butchery efficiency"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+4 animals",
+          "+4 plants",
+          "+20% plant harvest yield",
+          "+20% butchery efficiency"
+        ]
+      },
+      "defName": "VTE_Ecologist",
+      "name": "ecologist",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has an eye for silver and a tongue made from it. They believe their products are the best products and he will likely convince you if given the chance.",
+      "stats": [
+        "+4 social",
+        "+4 crafting",
+        "+25.00% trade price improvement"
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+          "+4 social",
+          "+4 crafting",
+          "+25.00% trade price improvement"
+        ]
+      },
+      "defName": "VTE_Tycoon",
+      "name": "tycoon",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is strangely hypercoagulating and will bleed much more slowly than most.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "thinskinned"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "thinskinned"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_ThickSkinned",
+      "name": "thickskinned",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is strangely hemophilic and tends to bleed much more profusely than others.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "thickskinned"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "thickskinned"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_ThinSkinned",
+      "name": "thinskinned",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy has trouble expressing themselves until its all too much to bear, whereafter they will have an utter meltdown.",
+      "stats": [
+
+      ],
+      "conflicts": [
+        "iron-willed",
+        "steadfast",
+        "nervous",
+        "volatile"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "iron-willed",
+          "steadfast",
+          "nervous",
+          "volatile"
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VTE_Schizoid",
+      "name": "schizoid",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy hates and distrusts xenos. They see them as little more than animals.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Humanoid Alien Races",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "Xenophobia",
+      "name": "xenophobe",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 1
+    },
+    {
+      "description": "Timmy thinks aliens are exotic and interesting. They would love to get to know them more and wouldn't mind forming relationships with them.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Humanoid Alien Races",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "Xenophobia",
+      "name": "xenophile",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": -1
+    },
+    {
+      "description": "Timmy has Solid exoskeleton, he takes much less damage than other Anties from the same blows.",
+      "stats": [
+        "x70% incoming damage multiplier",
+        "x112% leather amount",
+        "x0% flammability"
+      ],
+      "conflicts": [
+        "tough",
+        "bloodlust",
+        "psychopath",
+        "cannibal",
+        "undergrounder",
+        "wimp"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Anty the war ant race",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "tough",
+          "bloodlust",
+          "psychopath",
+          "cannibal",
+          "undergrounder",
+          "wimp"
+        ],
+        "stats": [
+          "x70% incoming damage multiplier",
+          "x112% leather amount",
+          "x0% flammability"
+        ]
+      },
+      "defName": "AT_Solidexoskeleton",
+      "name": "solidexoskeleton",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "A Giants with giantism is said to grow up to 30 feet. Not only his heights, but his skin grows thicker. To compensate for such growth, Timmy must eat more.",
+      "stats": [
+        "x80% incoming damage multiplier"
+      ],
+      "conflicts": [
+        "tough",
+        "gourmand"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "The GiantRace",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "tough",
+          "gourmand"
+        ],
+        "stats": [
+          "x80% incoming damage multiplier"
+        ]
+      },
+      "defName": "Giantism",
+      "name": "giantism",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy was titled a great warrior after striking down a dangerous beast single-handedly.",
+      "stats": [
+        "+5.0 melee hit chance",
+        "+10.0 melee dodge chance"
+      ],
+      "conflicts": [
+        "wimp"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "The GiantRace",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+          "wimp"
+        ],
+        "stats": [
+          "+5.0 melee hit chance",
+          "+10.0 melee dodge chance"
+        ]
+      },
+      "defName": "MonsterHunter",
+      "name": "monsterhunter",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy is entombed in a warcasket. No amount of pain will have an effect on them, and they can never go into a pain shock or drop unconscious due to pain. Because of how bulky the armor is and how much energy it takes to use it, Timmy is not capable of doing any work.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Factions Expanded - Pirates",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VFEP_WarcasketTrait",
+      "name": "warcasket",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
+    },
+    {
+      "description": "Timmy was entombed in a warcasket, and then brutally pulled out of one. The neural and nerve damage from being unplugged is so severe that Timmy is in constant, agonizing pain and can barely assemble his thoughts. Only installing Timmy back in a warcasket can cure the symptoms.",
+      "stats": [
+
+      ],
+      "conflicts": [
+
+      ],
+      "bypassLimit": false,
+      "data": {
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Factions Expanded - Pirates",
+        "karmaTypeForAdding": null,
+        "conflicts": [
+
+        ],
+        "stats": [
+
+        ]
+      },
+      "defName": "VFEP_Shellcasket",
+      "name": "shellcasket",
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0
     }
   ],
   "races": [
@@ -2005,12 +4097,12 @@
           "+70% Flammability",
           "+$1750 Market value",
           "+4.60 Move speed",
-          "+28.8F Minimum comfortable temperature",
-          "+46.8F Maximum comfortable temperature",
-          "+50 Leather amount",
+          "+16.0C Minimum comfortable temperature",
+          "+26.0C Maximum comfortable temperature",
+          "+75 Leather amount",
           "+3 Honor value"
         ],
-        "mod": "RimWorld",
+        "mod": "Unknown",
         "karmaType": null,
         "customName": false
       },
@@ -2018,7 +4110,1610 @@
       "defName": "Human",
       "enabled": true,
       "name": "human",
+      "price": 1500
+    },
+    {
+      "data": {
+        "stats": [
+          "+75.00 Mass",
+          "+100% Flammability",
+          "+$1500 Market value",
+          "+4.61 Move speed",
+          "-50.0C Minimum comfortable temperature",
+          "+50.0C Maximum comfortable temperature",
+          "+20% Toxic sensitivity",
+          "+135% Immunity gain speed",
+          "+25 Leather amount"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of humanlike robots which are mostly female in model variety.\n\nThe origins of these machines are mostly unknown. Some speculate they are escapees from a civilization which used them for labor and some just suggest they are outdated pleasure machines which got dumped by a passing space freighter.\n\nBy design by their previous masters they are weak physically but their raw fortitude is enough to make up for it. Beware of their biological reactor and capacitors violently exploding, if they die by overheating.\n\n<i><color=#66E0E4FF>Androids</color></i>",
+      "defName": "ChjAndroid",
+      "enabled": true,
+      "name": "Android",
+      "price": 2500
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+0% Flammability",
+          "+$850 Market value",
+          "+5.21 Move speed",
+          "-200.0C Minimum comfortable temperature",
+          "+300.0C Maximum comfortable temperature",
+          "+0% Toxic sensitivity",
+          "+0% Psychic sensitivity",
+          "+500% Pain shock threshold",
+          "+0% Mental break threshold",
+          "+0.00% Social impact",
+          "+0% Global learning factor",
+          "+1000% Immunity gain speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "+30.0% Armor - Sharp",
+          "+20.0% Armor - Blunt",
+          "+200.0% Armor - Heat",
+          "+75 Carrying capacity"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of rudimentary humanlike worker robots.\n\nUsually found toiling around in colonies around the rim which got a resident tinkerer.\n\nNot capable of sapience, however their relative cheap cost and ability to work around the clock make them valuable workers.\n\n<i><color=#66E0E4FF>Androids</color></i>",
+      "defName": "ChjDroid",
+      "enabled": true,
+      "name": "Droid",
+      "price": 1417
+    },
+    {
+      "data": {
+        "stats": [
+          "+55.00 Mass",
+          "+0% Flammability",
+          "+$1900 Market value",
+          "+4.00 Move speed",
+          "-200.0C Minimum comfortable temperature",
+          "+500.0C Maximum comfortable temperature",
+          "+0% Toxic sensitivity",
+          "+0% Psychic sensitivity",
+          "+500% Pain shock threshold",
+          "+0% Mental break threshold",
+          "+0.00% Social impact",
+          "+0% Global learning factor",
+          "+1000% Immunity gain speed",
+          "+0 Leather amount",
+          "+0 Meat amount",
+          "-0.4 Melee dodge chance",
+          "+100.0% Armor - Sharp",
+          "+40.0% Armor - Blunt",
+          "+200.0% Armor - Heat",
+          "+150 Carrying capacity"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of rudimentary humanlike warrior robots.\n\nUsually found guarding the homes of the wealthy and offices of mega corporations. They show no mercy upon targets who fail to identify themselves. Are traditionally armed with miniguns and core launchers.\n\n<i><color=#66E0E4FF>Androids</color></i>",
+      "defName": "ChjBattleDroid",
+      "enabled": true,
+      "name": "Battle droid",
+      "price": 3167
+    },
+    {
+      "data": {
+        "stats": [
+          "+55.00 Mass",
+          "+100% Flammability",
+          "+$2500 Market value",
+          "+5.40 Move speed",
+          "+2.0C Minimum comfortable temperature",
+          "+35.0C Maximum comfortable temperature",
+          "+50 Leather amount",
+          "+60 Meat amount",
+          "+100% Immunity gain speed",
+          "+90 Carrying capacity",
+          "+100% Pain shock threshold",
+          "+100% Psychic sensitivity",
+          "+1.0 Melee dodge chance",
+          "+1.0 Melee hit chance",
+          "+90% Aiming time",
+          "+1.0 Shooting accuracy",
+          "+100.00% Negotiation ability",
+          "+100% Sell price multiplier",
+          "+100.00% Social impact",
+          "+100% Mechanoid shredding efficiency",
+          "+100% Mechanoid shredding speed",
+          "+100% Smelting speed",
+          "+100% General labor speed",
+          "+100% Butchery efficiency",
+          "+100% Butchery speed",
+          "+100.00% Food poison chance",
+          "+1.0 Cooking speed",
+          "+100% Rest rate multiplier",
+          "+100% Plant work speed",
+          "+120% Research speed",
+          "+110% Medical tend quality",
+          "+100% Drug synthesis speed",
+          "+100% Medical surgery success chance",
+          "+100% Mining speed",
+          "+100% Mining yield"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A weird being.\n\n<i><color=#66E0E4FF>Anthro Race</color></i>",
+      "defName": "Anthro",
+      "enabled": true,
+      "name": "Anthro",
+      "price": 4167
+    },
+    {
+      "data": {
+        "stats": [
+          "+$3000 Market value",
+          "+4.15 Move speed",
+          "+320.00 Mass",
+          "+500.0C Maximum comfortable temperature",
+          "-80.0C Minimum comfortable temperature",
+          "+100% Rest rate multiplier",
+          "+250% Hunger rate multiplier",
+          "+100% Eating speed",
+          "+110 Carrying capacity",
+          "+60 Meat amount",
+          "+30 Leather amount",
+          "+99% Pain shock threshold",
+          "+0% Psychic sensitivity",
+          "+1% Mental break threshold",
+          "+0% Toxic sensitivity",
+          "+0% Flammability",
+          "+1.0 Melee dodge chance",
+          "+1.0 Melee hit chance",
+          "+100% Aiming time",
+          "+1.0 Shooting accuracy",
+          "+0.00% Negotiation ability",
+          "+100% Sell price multiplier",
+          "+10.00% Social impact",
+          "+0.00% Trade price improvement",
+          "+100% Mechanoid shredding efficiency",
+          "+100% Mechanoid shredding speed",
+          "+100% Smelting speed",
+          "+100% General labor speed",
+          "+100% Construction speed",
+          "+100% Butchery efficiency",
+          "+100% Butchery speed",
+          "+100.00% Food poison chance",
+          "+1.0 Cooking speed",
+          "+100% Plant work speed",
+          "+150% Global learning factor",
+          "+100% Research speed",
+          "+100% Medical tend quality",
+          "+100% Drug synthesis speed",
+          "+100% Medical surgery success chance",
+          "+110% Immunity gain speed",
+          "+400% Mining speed",
+          "+50% Mining yield",
+          "+45.0% Armor - Blunt",
+          "+135.0% Armor - Sharp"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "They are bioweapons recreated after Mechanoids by the Anties.\n\nDreadnaughts are possessed only the most advanced Hives and are stationed at the last lines of defense.\n\nThey are equipped with low-angle intercepting systems. Unlike low-angle shields, they deny both incoming and outgoing projectiles.(Dlc) \n\nIf the dreadnaughts are seen on the battlefront, it means child's play is over.\n\n<i><color=#66E0E4FF>Anty the war ant race</color></i>",
+      "defName": "AT_dreadnought",
+      "enabled": true,
+      "name": "Anty Dreadnought",
+      "price": 5000
+    },
+    {
+      "data": {
+        "stats": [
+          "+55.00 Mass",
+          "+200% Flammability",
+          "+$800 Market value",
+          "+5.00 Move speed",
+          "+28.0C Maximum comfortable temperature",
+          "+19.0C Minimum comfortable temperature",
+          "+100% Rest rate multiplier",
+          "+100% Hunger rate multiplier",
+          "+100% Eating speed",
+          "+110 Carrying capacity",
+          "+20 Meat amount",
+          "+40 Leather amount",
+          "+90% Pain shock threshold",
+          "+50% Psychic sensitivity",
+          "+40% Mental break threshold",
+          "+300% Toxic sensitivity",
+          "+0.8 Melee dodge chance",
+          "+1.0 Melee hit chance",
+          "+100% Aiming time",
+          "+0.8 Shooting accuracy",
+          "+0.00% Negotiation ability",
+          "+100% Sell price multiplier",
+          "+10.00% Social impact",
+          "+0.00% Trade price improvement",
+          "+120% Mechanoid shredding efficiency",
+          "+120% Mechanoid shredding speed",
+          "+100% Smelting speed",
+          "+100% General labor speed",
+          "+125% Construction speed",
+          "+120% Butchery efficiency",
+          "+120% Butchery speed",
+          "+100.00% Food poison chance",
+          "+0.3 Cooking speed",
+          "+100% Plant work speed",
+          "+110% Global learning factor",
+          "+100% Research speed",
+          "+80% Medical tend quality",
+          "+100% Drug synthesis speed",
+          "+110% Medical surgery success chance",
+          "+100% Immunity gain speed",
+          "+200% Mining speed",
+          "+80% Mining yield"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Anties are genetically engineered beings by a private company to replace dying soldiers on the battle field.\n\nEverything has gone south when the company has let their guard down to celebrate their recent progress. Due to a mistake made by one of the employees, the Anties have been set free from the lab and ended up in space.\n\nTheir personalities are gentle by nature, but they were made to know only but war. On each planet they end up, they burn everything down to ash, using themselves as the main source of the fuel.\n\nAnty is hermaphrodite, has no externally exposed reproductive organs, but has both a scrotum and ovaries in the abdomen.\n\nAnty's gender is indicated based on her reproductive system, which was a little more developed prior to consuming the Nutritional jelly.\n\nThe average height of common anty ergates and queen ants is 140cm, while soldier ants are 170cm. Depending on needs or the type of hive, it can transform or grow up to 200cm.\n\n<i><color=#66E0E4FF>Anty the war ant race</color></i>",
+      "defName": "Anty",
+      "enabled": true,
+      "name": "Anty",
+      "price": 1333
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+6.50 Move speed",
+          "+85% Hunger rate multiplier",
+          "+1.0 Beauty",
+          "+18.0C Minimum comfortable temperature",
+          "+26.0C Maximum comfortable temperature",
+          "+40% Mental break threshold",
+          "+85% Global work speed",
+          "+3 Honor value",
+          "+75 Meat amount",
+          "+40 Leather amount",
+          "+$1750 Market value"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A tribe of rabbit-like humanoids. They are small and weak, but have powerful legs.\n        \n        Small bodies leave them roughly 15% weaker in nearly all respects\n        Less resistant to cold temperatures\n        Over 40% faster running speed\n        Generally fine-featured and attractive\n        Somewhat Neurotic\n\n<i><color=#66E0E4FF>Bun Race</color></i>",
+      "defName": "Alien_BunTribe",
+      "enabled": true,
+      "name": "Bun",
       "price": 2917
+    },
+    {
+      "data": {
+        "stats": [
+          "+80.00 Mass",
+          "+70% Flammability",
+          "+$1750 Market value",
+          "+5.60 Move speed",
+          "-8.0C Minimum comfortable temperature",
+          "+18.0C Maximum comfortable temperature",
+          "+3 Honor value",
+          "+20.0% Armor - Blunt",
+          "+50 Leather amount",
+          "+105% Global learning factor",
+          "+110% Pain shock threshold",
+          "+125% Psychic sensitivity",
+          "+85% Toxic sensitivity",
+          "+85% Plant work speed",
+          "+90% Plant harvest yield",
+          "+90.00% Social impact",
+          "+85.00% Negotiation ability",
+          "+85.00% Trade price improvement",
+          "+130% Hunting stealth",
+          "+105% General labor speed",
+          "+105% Drug synthesis speed",
+          "+105% Drug cooking speed",
+          "+110% Butchery efficiency",
+          "+115.00% Tame animal chance",
+          "+115.00% Train animal chance",
+          "+115% Animal gather speed",
+          "+90% Aiming time",
+          "+1.1 Shooting accuracy",
+          "+1.1 Melee dodge chance",
+          "+1.1 Melee hit chance",
+          "+85 Carrying capacity"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Arachne race lineage can be traced back to Arachne homeworld where the temperature fluctuate between cold and warm.\nArachnes over thousands of generations began to adapt to these temperature and ables themselves to withstand cold but in return have less tolerance to the heat\n\n<i><color=#66E0E4FF>Arachne Race (Continued)</color></i>",
+      "defName": "Arachne",
+      "enabled": true,
+      "name": "arachne",
+      "price": 2917
+    },
+    {
+      "data": {
+        "stats": [
+          "+50.00 Mass",
+          "+70% Flammability",
+          "+$3000 Market value",
+          "+5.20 Move speed",
+          "-45.0C Minimum comfortable temperature",
+          "+45.0C Maximum comfortable temperature",
+          "+150% Immunity gain speed",
+          "+150 Carrying capacity",
+          "+20.0% Armor - Sharp",
+          "+15.0% Armor - Blunt",
+          "+20.0% Armor - Heat",
+          "+60% Toxic sensitivity",
+          "+110% Eating speed",
+          "+45 Meat amount",
+          "+80% Plant work speed",
+          "+120% Plant harvest yield",
+          "+75 Leather amount",
+          "+80% Mining speed",
+          "+120% Mining yield",
+          "+1.0 Melee dodge chance",
+          "+125% Aiming time",
+          "+80.00% Negotiation ability",
+          "+90% Construction speed",
+          "+125.00% Social impact"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A beautiful, semi-reptilian creature with features of a mythical dragon and a human being. They are prized by poachers for their silky, silver hair, and others seek to capture them for their high price at the black markets.\n\n<i><color=#66E0E4FF>Dragonian Race</color></i>",
+      "defName": "Dragonian_Male",
+      "enabled": true,
+      "name": "Dragonian",
+      "price": 5000
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$3000 Market value",
+          "+5.20 Move speed",
+          "-45.0C Minimum comfortable temperature",
+          "+45.0C Maximum comfortable temperature",
+          "+150% Immunity gain speed",
+          "+150 Carrying capacity",
+          "+20.0% Armor - Sharp",
+          "+15.0% Armor - Blunt",
+          "+20.0% Armor - Heat",
+          "+60% Toxic sensitivity",
+          "+110% Eating speed",
+          "+45 Meat amount",
+          "+80% Plant work speed",
+          "+120% Plant harvest yield",
+          "+75 Leather amount",
+          "+80% Mining speed",
+          "+120% Mining yield",
+          "+1.0 Melee dodge chance",
+          "+125% Aiming time",
+          "+80.00% Negotiation ability",
+          "+90% Construction speed",
+          "+125.00% Social impact"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A beautiful, semi-reptilian creature with features of a mythical dragon and a human being. They are prized by poachers for their silky, silver hair, and others seek to capture them for their high price at the black markets.\n\n<i><color=#66E0E4FF>Dragonian Race</color></i>",
+      "defName": "Dragonian_Female",
+      "enabled": true,
+      "name": "Dragonian",
+      "price": 5000
+    },
+    {
+      "data": {
+        "stats": [
+          "+75.00 Mass",
+          "+50% Flammability",
+          "+$3200 Market value",
+          "+4.00 Move speed",
+          "+18.0C Maximum comfortable temperature",
+          "+2.0C Minimum comfortable temperature",
+          "+110% Immunity gain speed",
+          "+75 Carrying capacity",
+          "+80 Meat amount",
+          "+50 Leather amount",
+          "+120% Psychic sensitivity",
+          "+0.8 Melee dodge chance",
+          "+100.00% Social impact",
+          "+85% General labor speed",
+          "+130% Drug synthesis speed",
+          "+120% Medical tend speed",
+          "+115% Medical tend quality",
+          "+115% Medical surgery success chance",
+          "+4 Honor value"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A humanoid race living in cities under the sea. Having traits similar to sea creatures, their blood contains substances that can be used for various medical uses.\n\nDescendants of glitterworld explorers who settled in the deep sea, generations of body modifications has led to their current form. Spreading far and wide into the rim, they built many cities and prospered. Until now.\n\n<i><color=#66E0E4FF>Moyo-From the depth</color></i>",
+      "defName": "Alien_Moyo",
+      "enabled": true,
+      "name": "Moyo",
+      "price": 5333
+    },
+    {
+      "data": {
+        "stats": [
+          "+55.00 Mass",
+          "+100% Flammability",
+          "+$2000 Market value",
+          "+4.85 Move speed",
+          "+38% Mental break threshold",
+          "+26.0C Maximum comfortable temperature",
+          "+16.0C Minimum comfortable temperature",
+          "+100% Immunity gain speed",
+          "+75 Carrying capacity",
+          "+60 Meat amount",
+          "+50 Leather amount",
+          "+80% Pain shock threshold",
+          "+120% Psychic sensitivity",
+          "+0.9 Melee dodge chance",
+          "+0.8 Melee hit chance",
+          "+80% Aiming time",
+          "+1.2 Shooting accuracy",
+          "+100.00% Negotiation ability",
+          "+100% Sell price multiplier",
+          "+100.00% Social impact",
+          "+100% Mechanoid shredding efficiency",
+          "+100% Mechanoid shredding speed",
+          "+100% Smelting speed",
+          "+100% General labor speed",
+          "+100% Butchery efficiency",
+          "+100% Butchery speed",
+          "+100.00% Food poison chance",
+          "+1.0 Cooking speed",
+          "+100% Rest rate multiplier",
+          "+100% Plant work speed",
+          "+120% Research speed",
+          "+110% Medical tend quality",
+          "+120% Drug synthesis speed",
+          "+120% Medical surgery success chance",
+          "+80% Mining speed",
+          "+100% Mining yield"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Inhabitants of lunar cities that carry the genes of rabbits, the rabbie excel at waging war and constructing mega-cities. They travel the galaxy in search of celestial bodies with planetarium; a drug that the rabbie population has been reliant on for survival since the begining of their history. It is believed they originally came from another galaxy, but have sinced lost the technology and have been cut off from their home galaxy.\n\n<i><color=#66E0E4FF>Rabbie The Moonrabbit race</color></i>",
+      "defName": "Rabbie",
+      "enabled": true,
+      "name": "Rabbie",
+      "price": 3333
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+0% Flammability",
+          "+$1750 Market value",
+          "+4.00 Move speed",
+          "+16.0C Minimum comfortable temperature",
+          "+3000.0C Maximum comfortable temperature",
+          "+50 Leather amount",
+          "+3 Honor value",
+          "+40.0% Armor - Blunt",
+          "+40.0% Armor - Sharp",
+          "+40.0% Armor - Heat"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Long ago, a tribe of industrial zealots dabbled in an experimental technology that fused man and machine, giving rise to the Forgelings. A blend of steel and flesh, Forgelings consume chemfuel and wood to fuel a burning furnace within their chests. Pummeling metals into shape with their hammer-like fists, heating it with their burning forges, Forgelings make for excellent smiths.\n\n<i><color=#66E0E4FF>Forgelings race</color></i>",
+      "defName": "Forge_Forgeling_Race",
+      "enabled": true,
+      "name": "forgeling",
+      "price": 2917
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+30% Flammability",
+          "+$2000 Market value",
+          "+6.00 Move speed",
+          "-10.0C Minimum comfortable temperature",
+          "+35.0C Maximum comfortable temperature",
+          "+150% Global learning factor",
+          "+15 Leather amount",
+          "+100% Psychic sensitivity",
+          "+125% Research speed",
+          "+110% Medical tend speed",
+          "+200% Medical tend quality",
+          "+125% Mechanoid shredding efficiency",
+          "+125% Mechanoid shredding speed",
+          "+120% Construction speed",
+          "+120% Construct success chance",
+          "+150% Drug cooking speed",
+          "+150% Drug synthesis speed"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of blue demons hailing from the tribelands.\n\n<i><color=#66E0E4FF>Kolra's Oni Race Mod (Continued)</color></i>",
+      "defName": "Alien_BlueOni",
+      "enabled": true,
+      "name": "BlueOni",
+      "price": 3333
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+30% Flammability",
+          "+$2000 Market value",
+          "+6.50 Move speed",
+          "+0.0C Minimum comfortable temperature",
+          "+44.0C Maximum comfortable temperature",
+          "+35 Leather amount",
+          "+50% Psychic sensitivity",
+          "+130% Animal gather speed",
+          "+130% Animal gather yield",
+          "+125% Butchery efficiency",
+          "+125% Butchery speed",
+          "+1.3 Cooking speed",
+          "+10.00% Food poison chance",
+          "+125.00% Negotiation ability",
+          "+150% Plant harvest yield",
+          "+125% Plant work speed",
+          "+2 Foraged food amount",
+          "+125.00% Tame animal chance",
+          "+125.00% Train animal chance",
+          "+200% Hunting stealth"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of green demons hailing from the forests.\n\n<i><color=#66E0E4FF>Kolra's Oni Race Mod (Continued)</color></i>",
+      "defName": "Alien_GreenOni",
+      "enabled": true,
+      "name": "GreenOni",
+      "price": 3333
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+20% Flammability",
+          "+$2000 Market value",
+          "+7.00 Move speed",
+          "+0.0C Minimum comfortable temperature",
+          "+50.0C Maximum comfortable temperature",
+          "+50 Leather amount",
+          "+50% Psychic sensitivity",
+          "+150% Global work speed",
+          "+70 Carrying capacity",
+          "+200% Construction speed",
+          "+200% Mining speed",
+          "+150% Mining yield",
+          "+200% Smoothing speed",
+          "+1.5 Melee hit chance"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of red demons hailing from the mountians. Living through hardship after hardship has resulted in these oni having stronger bodies than their smaller cousins. Having grown up residing in mountians has also had the benifit of making Red Oni exceptional miners.\n\n<i><color=#66E0E4FF>Kolra's Oni Race Mod (Continued)</color></i>",
+      "defName": "Alien_RedOni",
+      "enabled": true,
+      "name": "RedOni",
+      "price": 3333
+    },
+    {
+      "data": {
+        "stats": [
+          "+90.00 Mass",
+          "+35% Flammability",
+          "+$3200 Market value",
+          "+4.50 Move speed",
+          "+30.0C Maximum comfortable temperature",
+          "+10.0C Minimum comfortable temperature",
+          "+135% Immunity gain speed",
+          "+150 Carrying capacity",
+          "+100 Meat amount",
+          "+60 Leather amount",
+          "+5% Psychic sensitivity",
+          "+0.9 Melee dodge chance",
+          "+55.00% Social impact",
+          "+115% General labor speed",
+          "+100% Drug synthesis speed",
+          "+120% Medical tend speed",
+          "+120% Medical tend quality",
+          "+100% Medical surgery success chance",
+          "+2 Honor value",
+          "+75% Aiming time"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A subspecies of the Moyo race, usually babies born after a Moyo is fertilized by a creature infected with the deep-sea virus. And because the symbiotic virus affects, most of them have strange personalities, but not intrinsically bad.\n\n<i><color=#66E0E4FF>Moyo-Light in the Abyss</color></i>",
+      "defName": "Alien_RedMoyo",
+      "enabled": true,
+      "name": "Red Moyo",
+      "price": 5333
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+100% Flammability",
+          "+$38000 Market value",
+          "+100 Leather amount",
+          "+13.50 Move speed",
+          "+1000 Carrying capacity",
+          "+200% Caravan riding speed",
+          "+250 Max hit points",
+          "+0.00 Deterioration rate",
+          "-36.0C Minimum comfortable temperature",
+          "+20.2C Maximum comfortable temperature",
+          "+175% Immunity gain speed",
+          "+50% Toxic sensitivity",
+          "+0% Cryo neurotoxin sensitivity",
+          "+2% Mental break threshold",
+          "+95% Pain shock threshold",
+          "+50% Aiming time",
+          "+20.0 Shooting accuracy",
+          "+15.0 Melee dodge chance",
+          "+10% Trap spring chance",
+          "+150% Eating speed",
+          "+150% Rest rate multiplier",
+          "+10.0 Beauty",
+          "+130.00% Social impact",
+          "+118.00% Trade price improvement",
+          "+175% Global learning factor",
+          "+150% Global work speed",
+          "+200% Research speed",
+          "+300.00% Tame animal chance",
+          "+300.00% Train animal chance",
+          "+300.00% Bond chance factor",
+          "+103% Butchery efficiency",
+          "+103% Mechanoid shredding efficiency",
+          "+0.0 Shield recharge rate",
+          "+0.0 Shield max energy",
+          "+100% Psychic sensitivity"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "An extremely rare, unknown source of bioengineered species that possesses a human genome with additional patches, centaur is recognized as a distinct mammal species.\n\nCentaur has a stronger physique, better appearance, more adaptable to cold environments, larger appetite, stronger immunity, more difficult to be knocked down than humans, IMMUNE to pain shock, also a natural shooter. Despite their equine appearance, centaurs are omnivorous.\n\nAccording to myth, centaurs are archotech-created artificial species that immortal and invincible, but also infertility. They have extremely powerful race-exclusive equipment, made them a god-like exist - and none have ever spot or seen these gods.\n\n<i><color=#66E0E4FF>RimCentaurs</color></i>",
+      "defName": "Alien_Centaur",
+      "enabled": true,
+      "name": "centaur",
+      "price": 63333
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+120% Recreation power",
+          "+$3000 Market value",
+          "+5.25 Move speed",
+          "+80% Global learning factor",
+          "+120% Drug cooking speed",
+          "+120% Drug synthesis speed",
+          "+80% Mining speed",
+          "+80% Mining yield",
+          "+150% Hunting stealth",
+          "+1.5 Melee dodge chance",
+          "+1.2 Shooting accuracy"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The Blood Elves or Sin'dorei in Thalassian (\"children of the blood\"), are a race composed of former high elves who renamed themselves in honor of their people who were killed during the siege of Quel'Thalas by the Scourge during the Third War.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft</color></i>",
+      "defName": "WoW_BloodElf",
+      "enabled": true,
+      "name": "blood elf",
+      "price": 5000
+    },
+    {
+      "data": {
+        "stats": [
+          "+90.00 Mass",
+          "+70% Flammability",
+          "+150 Carrying capacity",
+          "+75 Leather amount",
+          "+$3500 Market value",
+          "+150 Meat amount",
+          "+4.50 Move speed",
+          "+120% Toxic sensitivity",
+          "+120% Mechanoid shredding efficiency",
+          "+120% Mechanoid shredding speed",
+          "+135% Research speed",
+          "+100% Global work speed",
+          "+50% Hunting stealth",
+          "+120% Melee armor penetration",
+          "+0.8 Melee dodge chance",
+          "+120% Pain shock threshold"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The draenei (meaning Exiled Ones in their own tongue) are a faction of uncorrupted eredar who fled their homeworld of Argus to escape the corruption of the demonic Burning Legion.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft</color></i>",
+      "defName": "WoW_Draenei",
+      "enabled": true,
+      "name": "Draenei",
+      "price": 5833
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+4.00 Move speed",
+          "+$2500 Market value",
+          "+150% Construction speed",
+          "+150% Construct success chance",
+          "+150% Mining speed",
+          "+150% Mining yield",
+          "+150% Smelting speed",
+          "+150% Smoothing speed",
+          "+0.5 Melee dodge chance"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Dwarves are an ancient bold and courageous race descended from the earthen. Dwarves are short and stout creatures. They are shorter than humans but taller than gnomes, taking advantage of their size when possible and relying on their robustness and strength when not. The average dwarf is steady, observant and composed both during work and combat, yet able to rage with fierce zeal and persistence when the situation calls for it. While a dwarf prefers to plan forward to overcome challenges, many of them easily lose their temperament and self-restraint when exposed to conditions stirring their feelings and concerns.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft</color></i>",
+      "defName": "WoW_Dwarf",
+      "enabled": true,
+      "name": "Dwarf",
+      "price": 4167
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+120% Flammability",
+          "-26.0C Minimum comfortable temperature",
+          "+300% Immunity gain speed",
+          "+80% Recreation power",
+          "+$2000 Market value",
+          "+4.75 Move speed",
+          "+80.00% Negotiation ability",
+          "+250.00% Food poison chance",
+          "+10% Psychic sensitivity",
+          "+80.00% Social impact",
+          "+0% Toxic sensitivity",
+          "+80.00% Trade price improvement",
+          "+120% Butchery efficiency",
+          "+120% Butchery speed",
+          "+150% Drug cooking speed",
+          "+150% Drug synthesis speed",
+          "+120% Medical operation speed",
+          "+120% Medical surgery success chance",
+          "+120% Medical tend quality",
+          "+120% Medical tend speed",
+          "+120% Research speed",
+          "+80.00% Tame animal chance",
+          "+80.00% Train animal chance",
+          "+200% Pain shock threshold"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The undead Forsaken or simply the Forsaken and Undead are a race and a faction of intelligent undead who broke away from the Scourge and took control of much of the kingdom of Lordaeron, destroyed during the Third War by the death knight Arthas. While comprised vastly of undead humans, the Forsaken are a diverse faction that include several different races at their biological core. However, they have all assumed their racial identity as \"Forsaken,\" due to their shared goals and loyalties.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft</color></i>",
+      "defName": "WoW_Forsaken",
+      "enabled": true,
+      "name": "forsaken",
+      "price": 3333
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+120% Flammability",
+          "-26.0C Minimum comfortable temperature",
+          "+300% Immunity gain speed",
+          "+2 Foraged food amount",
+          "+80% Recreation power",
+          "+$3000 Market value",
+          "+5.25 Move speed",
+          "+80% Global learning factor",
+          "+80% Mining speed",
+          "+80% Mining yield",
+          "+120% Plant work speed",
+          "+120% Plant harvest yield",
+          "+80% Research speed",
+          "+80.00% Negotiation ability",
+          "+250.00% Food poison chance",
+          "+10% Psychic sensitivity",
+          "+80.00% Social impact",
+          "+0% Toxic sensitivity",
+          "+80.00% Trade price improvement",
+          "+120% Butchery efficiency",
+          "+120% Butchery speed",
+          "+150% Drug cooking speed",
+          "+150% Drug synthesis speed",
+          "+120% Medical operation speed",
+          "+120% Medical surgery success chance",
+          "+120% Medical tend quality",
+          "+120% Medical tend speed",
+          "+200% Hunting stealth",
+          "+1.5 Melee dodge chance",
+          "+1.2 Shooting accuracy",
+          "+200% Pain shock threshold"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The Night Elves are a powerful and mystical race whose origins extend back to ancient times. These then-immortal beings were among the first to study magic and let it loose throughout the world nearly ten thousand years before the First War on Azeroth. The far-reaching and ancient legacy of the night elves shaped them into a race of very self-sufficient and self-conscious individuals, who often display strong streaks of isolationism.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft</color></i>",
+      "defName": "WoW_ForsakenNightElf",
+      "enabled": true,
+      "name": "Forsaken Night Elf",
+      "price": 5000
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+120% Flammability",
+          "+80% Global learning factor",
+          "+5.25 Move speed",
+          "-26.0C Minimum comfortable temperature",
+          "+300% Immunity gain speed",
+          "+80% Recreation power",
+          "+$3000 Market value",
+          "+80% Mining speed",
+          "+80% Mining yield",
+          "+80.00% Negotiation ability",
+          "+250.00% Food poison chance",
+          "+10% Psychic sensitivity",
+          "+80.00% Social impact",
+          "+0% Toxic sensitivity",
+          "+80.00% Trade price improvement",
+          "+120% Butchery efficiency",
+          "+120% Butchery speed",
+          "+150% Drug cooking speed",
+          "+150% Drug synthesis speed",
+          "+120% Medical operation speed",
+          "+120% Medical surgery success chance",
+          "+120% Medical tend quality",
+          "+120% Medical tend speed",
+          "+120% Research speed",
+          "+80.00% Tame animal chance",
+          "+1.5 Melee dodge chance",
+          "+1.2 Shooting accuracy",
+          "+150% Hunting stealth",
+          "+80.00% Train animal chance",
+          "+200% Pain shock threshold"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The Blood Elves or Sin'dorei in Thalassian (\"children of the blood\"), are a race composed of former high elves who renamed themselves in honor of their people who were killed during the siege of Quel'Thalas by the Scourge during the Third War.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft</color></i>",
+      "defName": "WoW_ForsakenHighElf",
+      "enabled": true,
+      "name": "Forsaken High Elf",
+      "price": 5000
+    },
+    {
+      "data": {
+        "stats": [
+          "+35.00 Mass",
+          "+70% Flammability",
+          "+50 Carrying capacity",
+          "+0.5 Equip delay",
+          "+120% Recreation power",
+          "+$2500 Market value",
+          "+35 Leather amount",
+          "+45 Meat amount",
+          "+4.00 Move speed",
+          "+150% Global learning factor",
+          "+120% Mechanoid shredding efficiency",
+          "+120% Mechanoid shredding speed",
+          "+120% Construction speed",
+          "+120% Construct success chance",
+          "+150% Research speed",
+          "+50% Melee armor penetration",
+          "+2.0 Melee dodge chance",
+          "+50% Pain shock threshold"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The gnomes (collectively referred to as gnomanity or gnomekind) are a race of diminutive and highly intelligent humanoids, known for their mastery of technology. They were originally descended from mechagnomes, metallic titan-forged, who were afflicted with the Curse of Flesh. Gnomes are a race of ambitious folk that celebrate creativity and craft and whose lives are validated by a masterful command of the scientific laws of the universe. This outlook on life makes them feel that to be pitied is unbearable, even insulting, though they know their allies do not do this intentionally. They have been more of a race of scholars throughout their history, generally focused on escaping and avoiding conflict, being also known to offset their lack of physical strength with ingenuity and daring.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft</color></i>",
+      "defName": "WoW_Gnome",
+      "enabled": true,
+      "name": "Gnome",
+      "price": 4167
+    },
+    {
+      "data": {
+        "stats": [
+          "+38.00 Mass",
+          "+70% Flammability",
+          "+50 Carrying capacity",
+          "+0.5 Equip delay",
+          "+35 Leather amount",
+          "+$2500 Market value",
+          "+50 Meat amount",
+          "+4.25 Move speed",
+          "+150.00% Trade price improvement",
+          "+150% Global learning factor",
+          "+120% Mechanoid shredding efficiency",
+          "+120% Mechanoid shredding speed",
+          "+120% Construction speed",
+          "+120% Construct success chance",
+          "+110% Mining speed",
+          "+110% Mining yield",
+          "+150% Research speed",
+          "+50% Melee armor penetration",
+          "+1.5 Melee dodge chance",
+          "+50% Pain shock threshold"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The goblins (collectively known as goblinhood) are small green humanoids from the Isle of Kezan. Their love of money, explosives, and technology leaves them to be a very dangerous race, both to their enemies and themselves. Most goblins have a neutral standpoint, preferring to sell their contraptions, knowledge and services to other races. Goblins are slight and wiry, averaging 4 feet in height.[21][22][23] They have three fingers and one thumb on one hand and four toes on one foot. Their noses grow larger as they age.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft</color></i>",
+      "defName": "WoW_Goblin",
+      "enabled": true,
+      "name": "Goblin",
+      "price": 4167
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$3000 Market value",
+          "+5.25 Move speed",
+          "+80% Global learning factor",
+          "+80% Mining speed",
+          "+80% Mining yield",
+          "+150% Hunting stealth",
+          "+1.5 Melee dodge chance",
+          "+1.2 Shooting accuracy"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The High Elves, or Quel'dorei (\"children of noble birth\"), are a race descended from the Highborne night elves who left Kalimdor and settled in the Eastern Kingdoms, founding Quel'Thalas. The high elves were once a significant force on the continent, but in recent times their numbers have been dramatically reduced: almost 90% of their population in Quel'Thalas was slaughtered during the Third War.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft</color></i>",
+      "defName": "WoW_HighElf",
+      "enabled": true,
+      "name": "high elf",
+      "price": 5000
+    },
+    {
+      "data": {
+        "stats": [
+          "+70.00 Mass",
+          "+70% Flammability",
+          "+100% Rest effectiveness",
+          "+75 Carrying capacity",
+          "+0.2 Cleanliness",
+          "+16.0C Minimum comfortable temperature",
+          "+26.0C Maximum comfortable temperature",
+          "+100% Eating speed",
+          "+1 Equip delay",
+          "+100.00% Food poison chance",
+          "+0.5 Foraged food amount",
+          "+100% Immunity gain speed",
+          "+100% Recreation power",
+          "+50 Leather amount",
+          "+$2000 Market value",
+          "+75 Meat amount",
+          "+4.75 Move speed",
+          "+100.00% Negotiation ability",
+          "+100% Psychic sensitivity",
+          "+100.00% Social impact",
+          "+100% Toxic sensitivity",
+          "+100.00% Trade price improvement",
+          "+100% Global learning factor",
+          "+100% Animal gather speed",
+          "+100% Animal gather yield",
+          "+100% Butchery efficiency",
+          "+100% Butchery speed",
+          "+100% Mechanoid shredding efficiency",
+          "+100% Mechanoid shredding speed",
+          "+1.0 Cooking speed",
+          "+100% Construction speed",
+          "+100% Construct success chance",
+          "+100% Drug cooking speed",
+          "+100% Drug synthesis speed",
+          "+100% Medical operation speed",
+          "+100% Medical surgery success chance",
+          "+100% Medical tend quality",
+          "+100% Medical tend speed",
+          "+100% Mining speed",
+          "+100% Mining yield",
+          "+100% Plant work speed",
+          "+100% Plant harvest yield",
+          "+100% Research speed",
+          "+100% General labor speed",
+          "+100% Smelting speed",
+          "+100% Smoothing speed",
+          "+100.00% Tame animal chance",
+          "+100.00% Train animal chance",
+          "+100% Global work speed",
+          "+100% Accuracy (close)",
+          "+100% Accuracy (short)",
+          "+100% Accuracy (medium)",
+          "+100% Accuracy (long)",
+          "+100% Aiming time",
+          "+100% Hunting stealth",
+          "+100% Melee armor penetration",
+          "+1.0 Melee hit chance",
+          "+1.0 Melee dodge chance",
+          "+90% Pain shock threshold",
+          "+1.0 Shooting accuracy"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Humans (collectively referred to as mankind or humanity) are a resilient species native to the world of Azeroth. Recent discoveries have shown that humans are descended from the barbaric half-giant vrykul of Northrend. Though humans are among the younger races on Azeroth, they have faced many challenges with fortitude and resilience. Their continued ability to adapt and rebuild has made them a vital force in an ever-changing world.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft</color></i>",
+      "defName": "WoW_Human",
+      "enabled": true,
+      "name": "azerothian human",
+      "price": 3333
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+100% Flammability",
+          "+2 Foraged food amount",
+          "+$3000 Market value",
+          "+5.25 Move speed",
+          "+120% Toxic sensitivity",
+          "+80% Global learning factor",
+          "+80% Mining speed",
+          "+80% Mining yield",
+          "+120% Plant work speed",
+          "+80% Research speed",
+          "+120.00% Tame animal chance",
+          "+120.00% Train animal chance",
+          "+200% Hunting stealth",
+          "+1.5 Melee dodge chance",
+          "+1.3 Shooting accuracy"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The Night Elves are a powerful and mystical race whose origins extend back to ancient times. These then-immortal beings were among the first to study magic and let it loose throughout the world nearly ten thousand years before the First War on Azeroth. The far-reaching and ancient legacy of the night elves shaped them into a race of very self-sufficient and self-conscious individuals, who often display strong streaks of isolationism.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft</color></i>",
+      "defName": "WoW_NightElf",
+      "enabled": true,
+      "name": "night elf",
+      "price": 5000
+    },
+    {
+      "data": {
+        "stats": [
+          "+100.00 Mass",
+          "+70% Flammability",
+          "+150 Carrying capacity",
+          "+0.1 Cleanliness",
+          "+10.0C Minimum comfortable temperature",
+          "+36.0C Maximum comfortable temperature",
+          "+1.5 Equip delay",
+          "+150% Immunity gain speed",
+          "+75 Leather amount",
+          "+$3000 Market value",
+          "+150 Meat amount",
+          "+4.50 Move speed",
+          "+70.00% Negotiation ability",
+          "+80.00% Social impact",
+          "+80% Toxic sensitivity",
+          "+80.00% Trade price improvement",
+          "+70% Global learning factor",
+          "+120% Butchery speed",
+          "+70% Mechanoid shredding efficiency",
+          "+70% Mechanoid shredding speed",
+          "+120% Mining speed",
+          "+150% Melee armor penetration",
+          "+0.5 Melee dodge chance",
+          "+150% Pain shock threshold"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The orcs are a race native to the world of Draenor, now known as Outland, they arrived to Azeroth through the Dark Portal a massive structure that allowed orcs passage from their world.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft</color></i>",
+      "defName": "WoW_Orc",
+      "enabled": true,
+      "name": "Orc",
+      "price": 5000
+    },
+    {
+      "data": {
+        "stats": [
+          "+140.00 Mass",
+          "+70% Flammability",
+          "+150 Carrying capacity",
+          "+0.0C Minimum comfortable temperature",
+          "+26.0C Maximum comfortable temperature",
+          "+2 Equip delay",
+          "+100 Leather amount",
+          "+$3000 Market value",
+          "+200 Meat amount",
+          "+4.25 Move speed",
+          "+80% Global learning factor",
+          "+120% Animal gather speed",
+          "+120% Animal gather yield",
+          "+120% Plant work speed",
+          "+120% Plant harvest yield",
+          "+50% Research speed",
+          "+120.00% Tame animal chance",
+          "+120.00% Train animal chance",
+          "+20% Hunting stealth",
+          "+0.5 Melee dodge chance"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The tauren (shu'halo in their native language of Taur-ahe) are a race of large, bovine humanoids who dwell on the great plains of Central Kalimdor. For countless generations, they were constantly harassed by the violent centaur, who forced the tauren into a nomadic lifestyle in the harsh Barrens. Despite their enormous size, the tauren are a peaceful and honorable people who nonetheless are fierce fighters when roused. Hunting and shamanism are held in high regard in their culture, as is their worship of the Earth Mother and respect for the land and nature.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft</color></i>",
+      "defName": "WoW_Tauren",
+      "enabled": true,
+      "name": "Tauren",
+      "price": 5000
+    },
+    {
+      "data": {
+        "stats": [
+          "+90.00 Mass",
+          "+150% Flammability",
+          "+48.0C Maximum comfortable temperature",
+          "+100.00% Food poison chance",
+          "+2 Foraged food amount",
+          "+300% Immunity gain speed",
+          "+$3000 Market value",
+          "+125 Meat amount",
+          "+5.00 Move speed",
+          "+80% Global learning factor",
+          "+120% Animal gather speed",
+          "+120% Animal gather yield",
+          "+120% Drug cooking speed",
+          "+120% Drug synthesis speed",
+          "+70% Research speed",
+          "+120.00% Tame animal chance",
+          "+120.00% Train animal chance",
+          "+120% Hunting stealth",
+          "+120% Melee armor penetration",
+          "+1.2 Melee hit chance",
+          "+120% Pain shock threshold"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Trolls (collectively referred to as trollkind) are a diverse sapient race that can be found in every part of Azeroth. They are one of the earliest known native races of Azeroth. Trolls are a species where multiple subspecies exist, these subspecies vary from being tall, lanky and muscular, with each subspecies being different than the others both physically and culturally. They have both elven and orc-like characteristics with their fierce tusks and long ears. Their long arms, strong legs, quick reflexes as well as their incredible agility and strength make them adept hunters.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft</color></i>",
+      "defName": "WoW_Troll",
+      "enabled": true,
+      "name": "Troll",
+      "price": 5000
+    },
+    {
+      "data": {
+        "stats": [
+          "+100.00 Mass",
+          "+70% Flammability",
+          "+6.0C Minimum comfortable temperature",
+          "+200.00% Food poison chance",
+          "+0.5 Foraged food amount",
+          "+75 Leather amount",
+          "+$3000 Market value",
+          "+150 Meat amount",
+          "+5.50 Move speed",
+          "+80.00% Negotiation ability",
+          "+80.00% Social impact",
+          "+120% Animal gather speed",
+          "+120% Animal gather yield",
+          "+150% Butchery efficiency",
+          "+150% Butchery speed",
+          "+80% Mechanoid shredding efficiency",
+          "+80% Mechanoid shredding speed",
+          "+80% Medical operation speed",
+          "+80% Medical surgery success chance",
+          "+80% Medical tend quality",
+          "+80% Medical tend speed",
+          "+80% Research speed",
+          "+120.00% Tame animal chance",
+          "+120.00% Train animal chance",
+          "+80% Accuracy (close)",
+          "+80% Accuracy (short)",
+          "+80% Accuracy (medium)",
+          "+80% Accuracy (long)",
+          "+80% Aiming time",
+          "+300% Hunting stealth",
+          "+200% Melee armor penetration",
+          "+2.0 Melee hit chance",
+          "+1.5 Melee dodge chance",
+          "+100% Pain shock threshold",
+          "+0.8 Shooting accuracy"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The worgen are a race of feral wolf-beasts whose very name inspires fear. They are large, lupine humanoids that walk upright, but lope on all fours to run. Being bitten by or drinking the blood of a worgen causes humans and night elves to be transformed into one. After the transformation, those that are overcome by rage and guilt gradually lose all vestiges of their former lives and turn mindless. By controlling their emotions via medication, magic, and self-discipline, worgen may resist being overcome by their feral instincts.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft</color></i>",
+      "defName": "WoW_Worgen",
+      "enabled": true,
+      "name": "Worgen",
+      "price": 5000
+    },
+    {
+      "data": {
+        "stats": [
+          "+50.00 Mass",
+          "+25% Flammability",
+          "+100% Rest effectiveness",
+          "+75 Carrying capacity",
+          "+0.2 Cleanliness",
+          "-1000.0C Minimum comfortable temperature",
+          "+100.0C Maximum comfortable temperature",
+          "+25% Eating speed",
+          "+2.5 Equip delay",
+          "+500.00% Food poison chance",
+          "+0 Foraged food amount",
+          "+10000% Immunity gain speed",
+          "+1000% Recreation power",
+          "+0 Leather amount",
+          "+$1000 Market value",
+          "+0 Meat amount",
+          "+3.00 Move speed",
+          "+25.00% Negotiation ability",
+          "+0% Psychic sensitivity",
+          "+25.00% Social impact",
+          "+0% Toxic sensitivity",
+          "+25.00% Trade price improvement",
+          "+10% Global learning factor",
+          "+25% Animal gather speed",
+          "+25% Animal gather yield",
+          "+25% Butchery efficiency",
+          "+50% Butchery speed",
+          "+25% Mechanoid shredding efficiency",
+          "+25% Mechanoid shredding speed",
+          "+0.3 Cooking speed",
+          "+50% Construction speed",
+          "+25% Construct success chance",
+          "+25% Drug cooking speed",
+          "+25% Drug synthesis speed",
+          "+25% Medical operation speed",
+          "+25% Medical surgery success chance",
+          "+25% Medical tend quality",
+          "+25% Medical tend speed",
+          "+25% Mining speed",
+          "+25% Mining yield",
+          "+25% Plant work speed",
+          "+25% Plant harvest yield",
+          "+25% Research speed",
+          "+25% General labor speed",
+          "+25% Smoothing speed",
+          "+25.00% Tame animal chance",
+          "+25.00% Train animal chance",
+          "+100% Global work speed",
+          "+25% Accuracy (close)",
+          "+25% Accuracy (short)",
+          "+25% Accuracy (medium)",
+          "+25% Accuracy (long)",
+          "+0% Hunting stealth",
+          "+100% Melee armor penetration",
+          "+0.5 Melee hit chance",
+          "+0.3 Melee dodge chance",
+          "+1000% Pain shock threshold",
+          "+0.3 Shooting accuracy",
+          "+25.0% Armor - Heat",
+          "+25.0% Armor - Sharp"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Skeleton of the Scourge\n\n<i><color=#66E0E4FF>(Ry)Rimcraft</color></i>",
+      "defName": "WoW_Skeleton",
+      "enabled": true,
+      "name": "skeleton",
+      "price": 1667
+    },
+    {
+      "data": {
+        "stats": [
+          "+50.00 Mass",
+          "+70% Flammability",
+          "+$1500 Market value",
+          "+4.70 Move speed",
+          "+16.0C Minimum comfortable temperature",
+          "+24.0C Maximum comfortable temperature",
+          "+40 Leather amount",
+          "+2 Honor value",
+          "+90% Hunger rate multiplier",
+          "+50 Carrying capacity",
+          "+120% Psychic sensitivity",
+          "+130.00% Tame animal chance",
+          "+130.00% Train animal chance",
+          "+130% Plant work speed",
+          "+130% Hunting stealth",
+          "+130% Butchery speed"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of amphibian-like aliens.\n\n<i><color=#66E0E4FF>RimRaces - Caerulean Race</color></i>",
+      "defName": "CaeruleanRace",
+      "enabled": true,
+      "name": "caerulean",
+      "price": 2500
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$1500 Market value",
+          "+4.60 Move speed",
+          "+16.0C Minimum comfortable temperature",
+          "+26.0C Maximum comfortable temperature",
+          "+50 Leather amount",
+          "+2 Honor value",
+          "+70.00% Negotiation ability",
+          "+70.00% Trade price improvement",
+          "+70.00% Social impact",
+          "+80% Eating speed",
+          "+130% Mining speed",
+          "+130% Smoothing speed",
+          "+130% Construction speed",
+          "+130% General labor speed",
+          "+130% Smelting speed"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of crustacean-like aliens.\n\n<i><color=#66E0E4FF>RimRaces - Cruttun Race</color></i>",
+      "defName": "CruttunRace",
+      "enabled": true,
+      "name": "cruttun",
+      "price": 2500
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$1500 Market value",
+          "+4.60 Move speed",
+          "+16.0C Minimum comfortable temperature",
+          "+26.0C Maximum comfortable temperature",
+          "+50 Leather amount",
+          "+2 Honor value",
+          "+130% Mining speed",
+          "+130% Construction speed",
+          "+130% Smelting speed",
+          "+70% Research speed",
+          "+70% Medical operation speed",
+          "+70% Medical tend speed",
+          "+70% Drug synthesis speed",
+          "+85 Carrying capacity",
+          "+120% Hunger rate multiplier",
+          "+120% Eating speed"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of brutish aliens.\n\n<i><color=#66E0E4FF>RimRaces - Grodan Race</color></i>",
+      "defName": "GrodanRace",
+      "enabled": true,
+      "name": "grodan",
+      "price": 2500
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$1500 Market value",
+          "+4.60 Move speed",
+          "+16.0C Minimum comfortable temperature",
+          "+26.0C Maximum comfortable temperature",
+          "+50 Leather amount",
+          "+2 Honor value",
+          "+120.00% Negotiation ability",
+          "+120.00% Trade price improvement",
+          "+120.00% Social impact",
+          "+120% Research speed",
+          "+120% Drug cooking speed",
+          "+120% Drug synthesis speed",
+          "+120% Medical tend speed",
+          "+70% Mining speed",
+          "+70% Smoothing speed",
+          "+70% Construction speed",
+          "+70% Plant work speed",
+          "+80% Rest rate multiplier"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A race of above average intelligent aliens.\n\n<i><color=#66E0E4FF>RimRaces - Xotan Race</color></i>",
+      "defName": "XotanRace",
+      "enabled": true,
+      "name": "xotan",
+      "price": 2500
+    },
+    {
+      "data": {
+        "stats": [
+          "+100.00 Mass",
+          "+$3800 Market value",
+          "+100% Flammability",
+          "+4.80 Move speed",
+          "+1% Mental break threshold",
+          "+22.0C Maximum comfortable temperature",
+          "-26.0C Minimum comfortable temperature",
+          "+130% Immunity gain speed",
+          "+90 Carrying capacity",
+          "+70% Pain shock threshold",
+          "+0% Psychic sensitivity",
+          "+400% Eating speed",
+          "+50 Leather amount",
+          "+80% Incoming damage multiplier",
+          "+75% Toxic sensitivity",
+          "-0.1 Melee dodge chance",
+          "+1.0 Melee hit chance",
+          "+80% Aiming time",
+          "+0.9 Shooting accuracy",
+          "+10% Hunting stealth",
+          "+20.00% Negotiation ability",
+          "+50% Sell price multiplier",
+          "+50.00% Social impact",
+          "+50% Mechanoid shredding efficiency",
+          "+200% Mechanoid shredding speed",
+          "+40% Smelting speed",
+          "+100% General labor speed",
+          "+250% Construction speed",
+          "+85% Butchery efficiency",
+          "+200% Butchery speed",
+          "+180.00% Food poison chance",
+          "+2.0 Cooking speed",
+          "+150% Rest rate multiplier",
+          "+300% Plant work speed",
+          "+85% Plant harvest yield",
+          "+10% Research speed",
+          "+40% Medical tend quality",
+          "+60% Drug synthesis speed",
+          "+10% Medical surgery success chance",
+          "+300% Mining speed",
+          "+85% Mining yield"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "A gigantic creature that averages a height of 16 feet. Requires more food and has lower intellects, but the thick skin and sheer mass results in devastating strength.\n\n<i><color=#66E0E4FF>The GiantRace</color></i>",
+      "defName": "HC_Giant",
+      "enabled": true,
+      "name": "Giant",
+      "price": 6333
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+$3000 Market value",
+          "+5.25 Move speed",
+          "+80% Global learning factor",
+          "+80% Mining speed",
+          "+80% Mining yield",
+          "+150% Hunting stealth",
+          "+1.5 Melee dodge chance",
+          "+1.2 Shooting accuracy"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "Void elves (or ren'dorei, \"children of the Void\" in Thalassian) are a race of Void-infused elves affiliated with the Alliance. Their origins lie with a group of blood elves led by Magister Umbric who were exiled from Silvermoon City because of their research into the Void. They were transformed by void ethereals but rescued by Alleria Windrunner, who had gained mastery of the Void herself on Argus. Permanently transformed by the process, they pledged their loyalty to her and the Alliance and established themselves as the ren'dorei. The void elves seek to utilize their great but dangerous powers for the sake of defending Azeroth and the Alliance, and to prove those who doubt or judge their abilities wrong, all the while resisting the Void's call to madness.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft Allied Races</color></i>",
+      "defName": "WoW_VoidElf",
+      "enabled": true,
+      "name": "void elf",
+      "price": 5000
+    },
+    {
+      "data": {
+        "stats": [
+          "+100.00 Mass",
+          "+70% Flammability",
+          "+150 Carrying capacity",
+          "+0.1 Cleanliness",
+          "+0.0C Minimum comfortable temperature",
+          "+26.0C Maximum comfortable temperature",
+          "+1.5 Equip delay",
+          "+120% Immunity gain speed",
+          "+75 Leather amount",
+          "+$3000 Market value",
+          "+150 Meat amount",
+          "+4.50 Move speed",
+          "+70.00% Negotiation ability",
+          "+80.00% Social impact",
+          "+80% Toxic sensitivity",
+          "+80.00% Trade price improvement",
+          "+70% Global learning factor",
+          "+120% Butchery speed",
+          "+70% Mechanoid shredding efficiency",
+          "+70% Mechanoid shredding speed",
+          "+120% Mining speed",
+          "+120.00% Tame animal chance",
+          "+120.00% Train animal chance",
+          "+150% Melee armor penetration",
+          "+0.5 Melee dodge chance",
+          "+150% Pain shock threshold"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The Mag'har orcs (\"uncorrupted\" in Orcish), also known as \"brown orcs\", are the orcs that escaped the corruption of the Burning Legion. On Draenor, they were a result of isolation from the Horde due to being quarantined in Garadar. They have a noble shamanistic tradition cultivating a mighty tribal society that was centered around survival, regulating themselves through ritualized combat and personal honor.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft Allied Races</color></i>",
+      "defName": "WoW_MagharOrc",
+      "enabled": true,
+      "name": "Mag'har Orc",
+      "price": 5000
+    },
+    {
+      "data": {
+        "stats": [
+          "+60.00 Mass",
+          "+70% Flammability",
+          "+2 Foraged food amount",
+          "+$3000 Market value",
+          "+5.25 Move speed",
+          "+130% Toxic sensitivity",
+          "+80% Global learning factor",
+          "+120% Drug cooking speed",
+          "+120% Drug synthesis speed",
+          "+80% Mining speed",
+          "+80% Mining yield",
+          "+120% Plant work speed",
+          "+80% Research speed",
+          "+120.00% Tame animal chance",
+          "+120.00% Train animal chance",
+          "+200% Hunting stealth",
+          "+1.5 Melee dodge chance",
+          "+1.3 Shooting accuracy"
+        ],
+        "mod": "Unknown",
+        "karmaType": null,
+        "customName": false
+      },
+      "description": "The Nightborne or Shal'dorei in the native tongue, are a powerful and mystical race of elves who live in Suramar. Since the city was first separated from the rest of the world over 10,000 years ago, they are no longer true night elves and have evolved by the Nightwell into a unique elven species. For the majority of their secluded existence, virtually the entire group resided in the ancient city of Suramar and were led solely until recent times by Grand Magistrix Elisande. The nightborne race owes much of its unique physical characteristics to its long dependence on the Nightwell, an ancient source of power crafted by Suramar's Highborne residents during the War of the Ancients. Over their lengthy isolation, the exposure of the nightborne to the Nightwell's energies gradually transformed them from their original Kaldorei night elven appearance to their present darker, more night-based form.\n\n<i><color=#66E0E4FF>(Ry)Rimcraft Allied Races</color></i>",
+      "defName": "WoW_Nightborne",
+      "enabled": true,
+      "name": "nightborne",
+      "price": 5000
     }
   ]
 }
