@@ -1642,5 +1642,17 @@
     "name": "ToolkitUtils",
     "steamId": "2009500580",
     "version": "6.2.0.4"
+  },
+  {
+    "author": "hodlhodl",
+    "name": "TwitchToolkit - Lootboxes",
+    "steamId": "1720021578",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "saschahi",
+    "name": "ToolkitAddon - More Stuff",
+    "steamId": "2594931182",
+    "version": "1.1.9"
   }
 ]
