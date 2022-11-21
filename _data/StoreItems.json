@@ -11863,12 +11863,6 @@
 		"defname": "WoW_Orc"
 	},
 	{
-		"abr": "skeleton",
-		"price": -10,
-		"category": "Animal",
-		"defname": "WoW_Skeleton"
-	},
-	{
 		"abr": "tauren",
 		"price": -10,
 		"category": "Animal",
