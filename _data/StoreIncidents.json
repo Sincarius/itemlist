@@ -327,7 +327,7 @@
 	},
 	{
 		"abr": "reviveall",
-		"price": 22664,
+		"price": 3000,
 		"karmatype": "Good"
 	},
 	{
@@ -337,7 +337,7 @@
 	},
 	{
 		"abr": "healall",
-		"price": 17336,
+		"price": 1500,
 		"karmatype": "Good"
 	},
 	{
@@ -367,7 +367,7 @@
 	},
 	{
 		"abr": "rescueme",
-		"price": 800,
+		"price": 1200,
 		"karmatype": "Neutral"
 	},
 	{
