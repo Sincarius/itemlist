@@ -9,12 +9,18 @@
     "author": "ilyvion",
     "name": "Loading Progress",
     "steamId": "3535481557",
-    "version": "0.17.0+dd79f9691e3458d50c44f258b9083d1fe6ff1b17"
+    "version": "0.17.1+33a51c95fc8ae35457f059de500038e969127be8"
   },
   {
     "author": "Aleksey",
     "name": "Better Stacktraces",
     "steamId": "3541579129",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "綠菇",
+    "name": "Faster Game Loading - Continued",
+    "steamId": "3652938473",
     "version": "1.0.0.0"
   },
   {
@@ -40,6 +46,12 @@
     "name": "Vanilla Expanded Framework",
     "steamId": "2023507013",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "moshi",
+    "name": "Image Opt fork ",
+    "steamId": "3781013698",
+    "version": "0.0.0.0"
   },
   {
     "author": "ferny",
@@ -153,6 +165,12 @@
     "author": "Jelly Creative",
     "name": "ISEKAI RPG LEVELING",
     "steamId": "3657580708",
+    "version": "0.0.0.0"
+  },
+  {
+    "author": "Poupun",
+    "name": "GUILD FACTION ADD-ON - Isekai RPG Leveling",
+    "steamId": "3718568958",
     "version": "0.0.0.0"
   },
   {
@@ -444,12 +462,6 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "FrozenSnowFox",
-    "name": "[FSF] Vanilla Bionics Expansion",
-    "steamId": "1419675146",
-    "version": "0.0.0.0"
-  },
-  {
     "author": "Teiwaz",
     "name": "GTG Trader Core",
     "steamId": "3682209120",
@@ -660,6 +672,12 @@
     "version": null
   },
   {
+    "author": "Victorique, Aurani and Tarojun",
+    "name": "Expanded Prosthetics and Organ Engineering - Forked",
+    "steamId": "1949064302",
+    "version": "4.4.7"
+  },
+  {
     "author": "SamBucher",
     "name": "A Dog Said... Animal Prosthetics 2",
     "steamId": "3238353862",
@@ -688,12 +706,6 @@
     "name": "Addie's Gunblade Arsenal",
     "steamId": "3408688438",
     "version": "0.0.0.0"
-  },
-  {
-    "author": "Addie",
-    "name": "Addie's Sanguine Arsenal",
-    "steamId": null,
-    "version": null
   },
   {
     "author": "telardo",
@@ -774,7 +786,7 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "Sarg Bjornson, Helixien, Cassie, Luizi and Allie",
+    "author": "Sarg Bjornson, Helixien, Cassie and Allie",
     "name": "Alpha Memes",
     "steamId": "2661356814",
     "version": "1.0.0.0"
@@ -1662,22 +1674,22 @@
     "version": null
   },
   {
+    "author": "Dubwise",
+    "name": "Dubs Rimkit",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "FrozenSnowFox",
+    "name": "[FSF] Advanced Bionics Expansion",
+    "steamId": "2006925330",
+    "version": "0.0.0.0"
+  },
+  {
     "author": "Zaljerem",
     "name": "More Archotech Garbage (Continued)",
     "steamId": "3241944893",
     "version": "1.0.0.0"
-  },
-  {
-    "author": "OELS",
-    "name": "Vehicle Map Framework",
-    "steamId": "3426502333",
-    "version": "1.6.562+901003fb17"
-  },
-  {
-    "author": "MO",
-    "name": "Technical map Vehicles",
-    "steamId": null,
-    "version": null
   },
   {
     "author": "Vampiresbane",
@@ -2109,7 +2121,7 @@
     "author": "iforgotmysocks",
     "name": "Caravan Adventures",
     "steamId": "2558957509",
-    "version": "1.8.3.0"
+    "version": "1.8.4.0"
   },
   {
     "author": "Kopp",
@@ -2136,14 +2148,8 @@
     "version": "1.6.3.0"
   },
   {
-    "author": "Rah",
-    "name": "RBSE",
-    "steamId": "850429707",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Ykara(Original) elStrages(1.4/1.5/1.6 Update)",
-    "name": "EPOE 1.6 Update (Expanded Prosthetics and Organ Engineering)",
+    "author": "Victorique, Aurani and Tarojun",
+    "name": "EPOE-Forked: Royalty DLC expansion",
     "steamId": null,
     "version": null
   },
@@ -2190,12 +2196,6 @@
     "version": null
   },
   {
-    "author": "Heather Athebyne",
-    "name": "Children Learn on Caravan",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "Leo39994",
     "name": "Clean Command Bar",
     "steamId": null,
@@ -2230,12 +2230,6 @@
     "name": "Combat Bionics (Continued)",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "avilmask",
-    "name": "Common Sense",
-    "steamId": "1561769193",
-    "version": "1.0.9771.40664"
   },
   {
     "author": "kathanon",
@@ -2466,12 +2460,6 @@
     "version": "1.0.0+0d3b7249bcc376965c277e80051fba3221dad81a"
   },
   {
-    "author": "Dubwise",
-    "name": "Dubs Rimkit",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "Zeracronius",
     "name": "Dynamic Trade Interface",
     "steamId": "3020706506",
@@ -2492,12 +2480,6 @@
   {
     "author": "Yoann",
     "name": "Encounter Baby Animals",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Ykara(original) elStrages(update)",
-    "name": "EPOE No Table 1.6 Update",
     "steamId": null,
     "version": null
   },
@@ -2710,12 +2692,6 @@
     "name": "Forced Rearmament",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "Matvey24",
-    "name": "FPS Stabilizer",
-    "steamId": "3318922522",
-    "version": "1.0.0.0"
   },
   {
     "author": "AmCh, HappyCam and Eragon",
@@ -2934,12 +2910,6 @@
     "version": "1.0.1.0"
   },
   {
-    "author": "Shadowwake",
-    "name": "Job Splitter (1.6 error removal)",
-    "steamId": null,
-    "version": null
-  },
-  {
     "author": "Linnun",
     "name": "Keep Converting",
     "steamId": "3461478214",
@@ -3088,12 +3058,6 @@
     "name": "Performance Optimizer",
     "steamId": "2664723367",
     "version": "1.0.0.0"
-  },
-  {
-    "author": "Epicguru",
-    "name": "Melee Animation",
-    "steamId": "2944488802",
-    "version": "1.0.0+505ac9657e9fd057a9ecd01b686c91578754c509"
   },
   {
     "author": "NotFood",
@@ -3588,12 +3552,6 @@
     "version": null
   },
   {
-    "author": "juicy",
-    "name": "RimTalk",
-    "steamId": "3551203752",
-    "version": "0.0.0.0"
-  },
-  {
     "author": "Sierra",
     "name": "RimTraits - General Traits",
     "steamId": null,
@@ -3632,12 +3590,6 @@
   {
     "author": "pphhyy and Gideon",
     "name": "Sanguinary Animals Reborn",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "Kira-bad-artist",
-    "name": "Sanguine Dining: Hemogen-Based Foods and Drinks",
     "steamId": null,
     "version": null
   },
@@ -3742,12 +3694,6 @@
     "name": "Simple Wall",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "B4ttl3m3d (Dev) and Pumpkinlass (Art)",
-    "name": "SimpleBabyCarry",
-    "steamId": "3692756679",
-    "version": "1.0.0.0"
   },
   {
     "author": "rewi wire",
@@ -4302,12 +4248,6 @@
     "version": null
   },
   {
-    "author": "Fluffy and Jia",
-    "name": "Work Tab",
-    "steamId": "3453549086",
-    "version": "1.6.1+2237a95fa333960b88feffb4335ce056a2022f3f"
-  },
-  {
     "author": "YAYO and Soky",
     "name": "Yayo's Animation (Continued)",
     "steamId": "2877292196",
@@ -4330,6 +4270,12 @@
     "name": "Yayo's Combat Warcaskets (1.6 temp)",
     "steamId": "3544300996",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "Heather Athebyne",
+    "name": "Children Learn on Caravan (Continued)",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "Fumblesneeze",
@@ -4384,5 +4330,71 @@
     "name": "Biotech Expansion - HD Textures",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "B4ttl3m3d (Dev) and Pumpkinlass (Art)",
+    "name": "SimpleBabyCarry",
+    "steamId": "3692756679",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "asunib",
+    "name": "Integrated Implants - EPOE Modular Compatibility",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Lauriichan",
+    "name": "PriorityMaster",
+    "steamId": "1994006442",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Xercaine",
+    "name": "Palisade",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "iamrespawn",
+    "name": "Prosthetic No Missing Body Parts (Continued)",
+    "steamId": "2739055353",
+    "version": "1.6.1"
+  },
+  {
+    "author": "SirVan",
+    "name": "Medieval Overhaul : Hornetkeeping",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "assssssqwww",
+    "name": "Better Health Bar",
+    "steamId": "3761551912",
+    "version": "0.0.0.0"
+  },
+  {
+    "author": "CaptainArbitrary",
+    "name": "Compact Work Tab (Continued)",
+    "steamId": "3250322299",
+    "version": "1.6.0"
+  },
+  {
+    "author": "avilmask",
+    "name": "Common Sense",
+    "steamId": "1561769193",
+    "version": "1.0.9771.40664"
+  },
+  {
+    "author": "Xerow",
+    "name": "Common Sense - Fix",
+    "steamId": "3778542872",
+    "version": "0.0.0.0"
+  },
+  {
+    "author": "Fuglypump",
+    "name": "Job Splitter",
+    "steamId": "1211661009",
+    "version": "0.0.0.0"
   }
 ]
